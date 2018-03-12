@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{072AE9D2-473A-412C-B582-169C1805A631}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Metaproject</RootNamespace>
+    <AssemblyName>Metaproject</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;NET3_5</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\..\Budget\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Collections\BiDictionary.cs" />
+    <Compile Include="Collections\ExtensionMethods.cs" />
+    <Compile Include="Collections\GroupResult.cs" />
+    <Compile Include="Collections\ITreeViewItem.cs" />
+    <Compile Include="Collections\Table.cs" />
+    <Compile Include="Collections\Tree.cs" />
+    <Compile Include="Conversions\ConversionHelper.cs" />
+    <Compile Include="Database\BCP.cs" />
+    <Compile Include="Database\CopyDatabaseAction.cs" />
+    <Compile Include="Database\DatabaseHelper.cs" />
+    <Compile Include="Database\DatabaseInfo.cs" />
+    <Compile Include="Database\DbmlDatabaseInfoFactory.cs" />
+    <Compile Include="Database\IDatabaseHelper.cs" />
+    <Compile Include="Database\IDatabaseInfoFactory.cs" />
+    <Compile Include="Database\ServerInfo.cs" />
+    <Compile Include="Database\IDatabaseTreeElement.cs" />
+    <Compile Include="Database\ServerInfoProvider.cs" />
+    <Compile Include="Database\SqlScipt.cs" />
+    <Compile Include="Database\TableInfo.cs" />
+    <Compile Include="DateTime\DateTimeExtensions.cs" />
+    <Compile Include="DateTime\DateTimeTools.cs" />
+    <Compile Include="Diagnostics\DiagnosticsTools.cs" />
+    <Compile Include="Dialog\IGridController.cs" />
+    <Compile Include="Dialog\ITreeViewModel.cs" />
+    <Compile Include="Dialog\LoadSaveDialogOptions.cs" />
+    <Compile Include="Dialog\DialogResult.cs" />
+    <Compile Include="Dialog\ILoadFileDialog.cs" />
+    <Compile Include="Dialog\ISaveFileDialog.cs" />
+    <Compile Include="Dialog\MenuItem.cs" />
+    <Compile Include="Dialog\MenuItemTagData.cs" />
+    <Compile Include="Dialog\MenuItemType.cs" />
+    <Compile Include="Dialog\SelectEntitiesDialogOptions.cs" />
+    <Compile Include="Enums\EnumExtensions.cs" />
+    <Compile Include="Enums\EnumTools.cs" />
+    <Compile Include="Excel\Borders\ExcelBorderData.cs" />
+    <Compile Include="Excel\Borders\ExcelBorderIndex.cs" />
+    <Compile Include="Excel\Borders\ExcelBorderItem.cs" />
+    <Compile Include="Excel\Borders\ExcelBorderItemCollection.cs" />
+    <Compile Include="Excel\Borders\ExcelBorderWeight.cs" />
+    <Compile Include="Excel\Borders\ExcelLineStyle.cs" />
+    <Compile Include="Excel\Data\ExcelCellData.cs" />
+    <Compile Include="Excel\Data\ExcelFormat.cs" />
+    <Compile Include="Excel\Data\ExcelRowData.cs" />
+    <Compile Include="Excel\Data\ExcelSheetData.cs" />
+    <Compile Include="Excel\Data\PivotTableData.cs" />
+    <Compile Include="Excel\Enums\ExcelHorizontalAlignmentType.cs" />
+    <Compile Include="Excel\Enums\ExcelRangeInfoType.cs" />
+    <Compile Include="Excel\Enums\ExcelVerticalAlignmentType.cs" />
+    <Compile Include="Excel\Events\ExcelCommandSelectedAggEvent.cs" />
+    <Compile Include="Excel\ExcelCell.cs" />
+    <Compile Include="Excel\ExcelRangeInfo.cs" />
+    <Compile Include="Excel\ExcelRawData.cs" />
+    <Compile Include="Excel\Events\ExcelSelectionChangedAggEvent.cs" />
+    <Compile Include="Excel\ExcelSupport.cs" />
+    <Compile Include="Excel\Events\ExcelValueChangedAggEvent.cs" />
+    <Compile Include="Excel\Formulas\ExcelFormula.cs" />
+    <Compile Include="Excel\Formulas\ExcelFormulaHelper.cs" />
+    <Compile Include="Excel\Interfaces\IExcelApp.cs" />
+    <Compile Include="Excel\Interfaces\IExcelSheet.cs" />
+    <Compile Include="Excel\Interfaces\IExcelWorkbook.cs" />
+    <Compile Include="Excel\Obsolete\MtExcel.cs" />
+    <Compile Include="Excel\Obsolete\MtExcelTypes.cs" />
+    <Compile Include="Excel\Tools\ExcelTools.cs" />
+    <Compile Include="Extensions\Extensions.cs" />
+    <Compile Include="Files\CsvFile.cs" />
+    <Compile Include="Files\FileNameInfo.cs" />
+    <Compile Include="Files\FileRepository.cs" />
+    <Compile Include="Files\FileSerializer.cs" />
+    <Compile Include="Files\FileTools.cs" />
+    <Compile Include="Files\IFileLinePredicate.cs" />
+    <Compile Include="Files\IStringReplace.cs" />
+    <Compile Include="Files\XmlFileManager.cs" />
+    <Compile Include="Finances\FinancesTools.cs" />
+    <Compile Include="Generic\SynchroTable.cs" />
+    <Compile Include="Graphics\GraphicsTools.cs" />
+    <Compile Include="JSON\JsonSerializer.cs" />
+    <Compile Include="Log\FakeLogger.cs" />
+    <Compile Include="Log\FileLogger.cs" />
+    <Compile Include="Log\ILogger.cs" />
+    <Compile Include="Log\IReportable.cs" />
+    <Compile Include="Log\LogReport.cs" />
+    <Compile Include="Log\LogReportDateDisplayType.cs" />
+    <Compile Include="Log\LogReportIO.cs" />
+    <Compile Include="Log\LogReportItem.cs" />
+    <Compile Include="Log\LogReportItemType.cs" />
+    <Compile Include="Log\LogReportManager.cs" />
+    <Compile Include="Log\LogReportPack.cs" />
+    <Compile Include="Log\OutputLogger.cs" />
+    <Compile Include="Log\StringBuilderLogger.cs" />
+    <Compile Include="Mail\MailTools.cs" />
+    <Compile Include="Mail\GmailSmtpClient.cs" />
+    <Compile Include="Mathematics\Probability\Combinations.cs" />
+    <Compile Include="Mathematics\Probability\GenerateOption.cs" />
+    <Compile Include="Mathematics\Probability\IMetaCollection.cs" />
+    <Compile Include="Mathematics\Probability\Permutations.cs" />
+    <Compile Include="Mathematics\Probability\SmallPrimeUtility.cs" />
+    <Compile Include="Mathematics\Probability\Variations.cs" />
+    <Compile Include="Patterns\Action\Action.cs" />
+    <Compile Include="Patterns\Action\ActionData.cs" />
+    <Compile Include="Patterns\Action\ActionResult.cs" />
+    <Compile Include="Patterns\Command\ICommand.cs" />
+    <Compile Include="Patterns\EventAggregator\EventAggregatorNoWeak.cs" />
+    <Compile Include="Patterns\EventAggregator\EventAggregator.cs" />
+    <Compile Include="Patterns\EventAggregator\Events\AggregatedEvent.cs" />
+    <Compile Include="Patterns\EventAggregator\Events\CommandSelectedAggregatedEvent.cs" />
+    <Compile Include="Patterns\EventAggregator\Events\FormClosingAggEvent.cs" />
+    <Compile Include="Patterns\EventAggregator\IEventAggregator.cs" />
+    <Compile Include="Patterns\EventAggregator\ISubscriber.cs" />
+    <Compile Include="Patterns\IFileSerializer.cs" />
+    <Compile Include="Patterns\ILineParser.cs" />
+    <Compile Include="Patterns\IObjectSerializer.cs" />
+    <Compile Include="Patterns\Persistence\IFileRepository.cs" />
+    <Compile Include="Patterns\Persistence\IRepository.cs" />
+    <Compile Include="Patterns\Persistence\IUnitOfWork.cs" />
+    <Compile Include="Printers\PrinterTools.cs" />
+    <Compile Include="Progress\FakeProgress.cs" />
+    <Compile Include="Progress\IProgress.cs" />
+    <Compile Include="Progress\IProgressDouble.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Reflection\PropertyMapper.cs" />
+    <Compile Include="Reflection\ReflectionExtensions.cs" />
+    <Compile Include="Reflection\ReflectionTools.cs" />
+    <Compile Include="Registry\Settings.cs" />
+    <Compile Include="Patterns\State\State.cs" />
+    <Compile Include="Patterns\State\StateManager.cs" />
+    <Compile Include="Registry\SettingsSerializer.cs" />
+    <Compile Include="Strings\MtString.cs" />
+    <Compile Include="Strings\ParseTools.cs" />
+    <Compile Include="Strings\StringComparer.cs" />
+    <Compile Include="Strings\StringExtensionMethods.cs" />
+    <Compile Include="Strings\StringNumber.cs" />
+    <Compile Include="System\ExtensionMethods.cs" />
+    <Compile Include="System\NullTools.cs" />
+    <Compile Include="Tests\TestTool.cs" />
+    <Compile Include="UndoRedo\IOperation.cs" />
+    <Compile Include="UndoRedo\UndoRedoManager.cs" />
+    <Compile Include="Windows\Cmd.cs" />
+    <Compile Include="Windows\ICmd.cs" />
+    <Compile Include="Xml\XmlSerializer.cs" />
+    <Compile Include="Xml\Serializer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Geometry\" />
+    <Folder Include="Parsing\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Files\PathInfo.cs" />
+    <None Include="packages.config" />
+    <None Include="Resources\Icon16_clip.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon16_Mail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon16_Save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\open.png" />
+    <None Include="Resources\word.png" />
+    <None Include="Resources\save_as.png" />
+    <None Include="Resources\message.png" />
+    <None Include="Resources\cllipboard.png" />
+    <None Include="Resources\excel2.PNG" />
+    <Content Include="Resources\IconError16.png" />
+    <Content Include="Resources\IconInfo16.png" />
+    <Content Include="Resources\IconOK16.png" />
+    <Content Include="Resources\IconWarning16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="IWshRuntimeLibrary">
+      <Guid>{F935DC20-1CF0-11D0-ADB9-00C04FD58A0B}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

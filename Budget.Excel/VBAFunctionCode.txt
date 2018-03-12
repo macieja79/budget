@@ -1,0 +1,30 @@
+﻿Public Function GetSum(rng As Range, category As String, subcategory As String) As Double
+
+
+Dim sum As Double
+
+Dim iCategory As String
+Dim iSubCategory As String
+Dim iAmount As Double
+
+Dim counter As Integer
+counter = 1
+
+For Each rw In rng.Rows
+
+    
+  iCategory = rng.Cells(counter, 1).Value
+  iSubCategory = rng.Cells(counter, 2).Value
+  iAmount = rng.Cells(counter, 3).Value
+
+  If iCategory = category And iSubCategory = subcategory Then
+  sum = sum + iAmount
+  End If
+ 
+  counter = counter + 1
+
+Next rw
+
+GetSum = sum
+
+End Function

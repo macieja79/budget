@@ -1,0 +1,30 @@
+{
+  "Reports": [
+    {
+      "Name": "Listopad 2016",
+      "AccountNumber": null,
+      "Transactions": [
+        {
+          "TransactionType": "WYDATEK",
+          "TransactionDate": "2016-11-30T00:00:00",
+          "CounterPartData": "LIDL BORKOWSKA            Krakow ",
+          "Title": "Płatność kartą 30.11.2016 Nr karty 4246xx4026 ",
+          "Details": "TR.KART -117.48 ",
+          "TransactionNumber": 201633797301347395,
+          "Amount": -117.48,
+          "Currency": "PLN",
+          "AccountNumber": "",
+          "Category": "JEDZENIE",
+          "SubCategory": "MARKET",
+          "Owner": "Maciek",
+          "Comment": null,
+          "Color": "#FFD800",
+          "IsEdited": false
+        }
+      ],
+      "Start": "0001-01-01T00:00:00",
+      "End": "0001-01-01T00:00:00",
+      "ParsedNumberOfTransactions": 0
+    }
+  ]
+}

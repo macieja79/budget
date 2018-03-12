@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9BE03895-3A75-490D-9772-1E3A70EE8B63}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Budget.Core</RootNamespace>
+    <AssemblyName>Budget.Core</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Actions\AttachRulesAction.cs" />
+    <Compile Include="Actions\GetExcelTransactionsAction.cs" />
+    <Compile Include="Actions\GetTransactionsAction.cs" />
+    <Compile Include="Actions\InsertPivotTableAction.cs" />
+    <Compile Include="Actions\InsertTransactionAction.cs" />
+    <Compile Include="Actions\RefreshPivotTableAction.cs" />
+    <Compile Include="Actions\UpdateTransactionsAction.cs" />
+    <Compile Include="BudgetConst.cs" />
+    <Compile Include="Commands\BudgetCommand.cs" />
+    <Compile Include="Application\AppEngine.cs" />
+    <Compile Include="Entities\Category.cs" />
+    <Compile Include="Entities\CategoryCollection.cs" />
+    <Compile Include="Entities\Entity.cs" />
+    <Compile Include="Entities\Options.cs" />
+    <Compile Include="Entities\Rule.cs" />
+    <Compile Include="Entities\RuleCollection.cs" />
+    <Compile Include="Entities\SubCategory.cs" />
+    <Compile Include="Entities\Transaction.cs" />
+    <Compile Include="Entities\TransactionComparer.cs" />
+    <Compile Include="Entities\TransactionReport.cs" />
+    <Compile Include="Entities\TransactionReportCollection.cs" />
+    <Compile Include="Events\AggEventCategoriesNeeded.cs" />
+    <Compile Include="Events\PathChangedEvent.cs" />
+    <Compile Include="Events\ReportDeletedEvent.cs" />
+    <Compile Include="Excel\ExcelTransactionHitInfo.cs" />
+    <Compile Include="Excel\IExcel.cs" />
+    <Compile Include="Import\DataRepository.cs" />
+    <Compile Include="Import\ExcelTransactionDataProvider.cs" />
+    <Compile Include="Import\FileData.cs" />
+    <Compile Include="Import\FileTransactionDataProvider.cs" />
+    <Compile Include="Import\IDataFileRepository.cs" />
+    <Compile Include="Import\IImport.cs" />
+    <Compile Include="Import\ITransactionDataProvider.cs" />
+    <Compile Include="Import\ITransactionParser.cs" />
+    <Compile Include="Logic\TransactionComparer.cs" />
+    <Compile Include="Logic\TransactionManager.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TestRulesRepository.cs" />
+    <Compile Include="Tools\TransactionParser.cs" />
+    <Compile Include="UI\IFilePathProvider.cs" />
+    <Compile Include="UI\IOutput.cs" />
+    <Compile Include="UI\IReportSelector.cs" />
+    <Compile Include="UI\IRulesRepository.cs" />
+    <Compile Include="UI\MenuFactory.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Metaproject\Metaproject.csproj">
+      <Project>{072ae9d2-473a-412c-b582-169c1805a631}</Project>
+      <Name>Metaproject</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

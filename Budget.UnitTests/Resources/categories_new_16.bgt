@@ -1,0 +1,1047 @@
+{
+  "Categories": [
+    {
+      "Name": "DOCHOD",
+      "Color": "#80FF80",
+      "SubCategories": [
+        {
+          "Name": "FV",
+          "Rules": [
+            {
+              "TypeOfRule": 0,
+              "Value": "78116022020000000098401147",
+              "Color": null,
+              "IsEnabled": true
+            },
+            {
+              "TypeOfRule": 0,
+              "Value": "58203000451110000000345060",
+              "Color": null,
+              "IsEnabled": true
+            },
+            {
+              "TypeOfRule": 0,
+              "Value": "84124050801111000051942944",
+              "Color": null,
+              "IsEnabled": true
+            },
+            {
+              "TypeOfRule": 0,
+              "Value": "19114020040000300230760499",
+              "Color": null,
+              "IsEnabled": true
+            },
+            {
+              "TypeOfRule": 0,
+              "Value": "51114020040000300275915654",
+              "Color": null,
+              "IsEnabled": true
+            },
+            {
+              "TypeOfRule": 0,
+              "Value": "05191010483607702511210001",
+              "Color": null,
+              "IsEnabled": true
+            },
+            {
+              "TypeOfRule": 0,
+              "Value": "43160011270003012769590001",
+              "Color": null,
+              "IsEnabled": true
+            },
+            {
+              "TypeOfRule": 0,
+              "Value": "62150019791219700362320000",
+              "Color": null,
+              "IsEnabled": true
+            },
+            {
+              "TypeOfRule": 0,
+              "Value": "98114020040000330275334989",
+              "Color": null,
+              "IsEnabled": true
+            },
+            {
+              "TypeOfRule": 0,
+              "Value": "05160010390002003314042011",
+              "Color": null,
+              "IsEnabled": true
+            },
+            {
+              "TypeOfRule": 0,
+              "Value": "77150011261211200816260000",
+              "Color": null,
+              "IsEnabled": true
+            },
+            {
+              "TypeOfRule": 3,
+              "Value": "^UNIWERSYTET PEDAGOGICZNY ",
+              "Color": null,
+              "IsEnabled": true
+            },
+            {
+              "TypeOfRule": 0,
+              "Value": "36102024010000090202135606",
+              "Color": null,
+              "IsEnabled": true
+            },
+            {
+              "TypeOfRule": 3,
+              "Value": "^AECOM POLSKA SP. Z O.O.",
+              "Color": null,
+              "IsEnabled": true
+            }
+          ],
+          "Id": "657e4b10-019d-43d8-a048-4166aa373cb2"
+        },
+        {
+          "Name": "SOCJAL",
+          "Rules": [
+            {
+              "TypeOfRule": 0,
+              "Value": "92102028920000500205901055",
+              "Color": null,
+              "IsEnabled": true
+            }
+          ],
+          "Id": "52a24a1a-33a7-4a9e-8234-aff4b52b4e07"
+        },
+        {
+          "Name": "ODSZKODOWANIE",
+          "Rules": [],
+          "Id": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+          "Name": "LEKCJE",
+          "Rules": [],
+          "Id": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+          "Name": "ODSETKI",
+          "Rules": [
+            {
+              "TypeOfRule": 1,
+              "Value": "^NALICZONE ODSETKI ",
+              "Color": null,
+              "IsEnabled": true
+            }
+          ],
+          "Id": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+          "Name": "INNE",
+          "Rules": [],
+          "Id": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+          "Name": "PENSJA",
+          "Rules": [
+            {
+              "TypeOfRule": 0,
+              "Value": "07103015080000000817816061",
+              "Color": null,
+              "IsEnabled": true
+            }
+          ],
+          "Id": "00000000-0000-0000-0000-000000000000"
+        }
+      ],
+      "Id": "00000000-0000-0000-0000-000000000000"
+    },
+    {
+      "Name": "FIRMA",
+      "Color": "#EC4A4A",
+      "SubCategories": [
+        {
+          "Name": "TAX",
+          "Rules": [
+            {
+              "TypeOfRule": 0,
+              "Value": "96101012700004462223000000",
+              "Color": null,
+              "IsEnabled": true
+            },
+            {
+              "TypeOfRule": 0,
+              "Value": "49101012700004462222000000",
+              "Color": null,
+              "IsEnabled": true
+            }
+          ],
+          "Id": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+          "Name": "ZUS",
+          "Rules": [
+            {
+              "TypeOfRule": 0,
+              "Value": "73101010230000261395300000",
+              "Color": null,
+              "IsEnabled": true
+            },
+            {
+              "TypeOfRule": 0,
+              "Value": "83101010230000261395100000",
+              "Color": null,
+              "IsEnabled": true
+            },
+            {
+              "TypeOfRule": 0,
+              "Value": "78101010230000261395200000",
+              "Color": null,
+              "IsEnabled": true
+            }
+          ],
+          "Id": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+          "Name": "HYUNDAI",
+          "Rules": [
+            {
+              "TypeOfRule": 0,
+              "Value": "10160010718963000000061799",
+              "Color": null,
+              "IsEnabled": true
+            }
+          ],
+          "Id": "00000000-0000-0000-0000-000000000000"
+        }
+      ],
+      "Id": "00000000-0000-0000-0000-000000000000"
+    },
+    {
+      "Name": "OPLATY",
+      "Color": "#FF0000",
+      "SubCategories": [
+        {
+          "Name": "CZYNSZ",
+          "Rules": [
+            {
+              "TypeOfRule": 0,
+              "Value": "95106001359150006800009100",
+              "Color": null,
+              "IsEnabled": true
+            }
+          ],
+          "Id": "df6aad66-af3b-4739-8f2d-74ddb19490d2"
+        },
+        {
+          "Name": "TELEFON",
+          "Rules": [
+            {
+              "TypeOfRule": 0,
+              "Value": "45160015052222010011544595",
+              "Color": null,
+              "IsEnabled": true
+            },
+            {
+              "TypeOfRule": 0,
+              "Value": "36109000047777010016486986",
+              "Color": null,
+              "IsEnabled": true
+            },
+            {
+              "TypeOfRule": 0,
+              "Value": "38105017641000002342518137",
+              "Color": null,
+              "IsEnabled": true
+            }
+          ],
+          "Id": "f2dd8816-7d7a-4625-ba73-13fe4861783c"
+        },
+        {
+          "Name": "KREDYT",
+          "Rules": [
+            {
+              "TypeOfRule": 0,
+              "Value": "74105000441000002351944471",
+              "Color": null,
+              "IsEnabled": true
+            }
+          ],
+          "Id": "34ed3e2d-3117-4e01-bee4-73cd0ad687cb"
+        },
+        {
+          "Name": "MEDIA",
+          "Rules": [
+            {
+              "TypeOfRule": 0,
+              "Value": "26249010287000003700003859",
+              "Color": null,
+              "IsEnabled": true
+            },
+            {
+              "TypeOfRule": 0,
+              "Value": "80103019447059070000634961",
+              "Color": null,
+              "IsEnabled": true
+            },
+            {
+              "TypeOfRule": 0,
+              "Value": "06103019447141000000588983",
+              "Color": null,
+              "IsEnabled": true
+            },
+            {
+              "TypeOfRule": 0,
+              "Value": "29105000996027010016587938",
+              "Color": null,
+              "IsEnabled": true
+            }
+          ],
+          "Id": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+          "Name": "PRZEDSZKOLE",
+          "Rules": [
+            {
+              "TypeOfRule": 0,
+              "Value": "21102028920000580205902814;68106000760000320001434014",
+              "Color": null,
+              "IsEnabled": true
+            },
+            {
+              "TypeOfRule": 3,
+              "Value": "^Zespół Ekonomiki Oświaty",
+              "Color": null,
+              "IsEnabled": true
+            },
+            {
+              "TypeOfRule": 3,
+              "Value": "^Trusted Service (Dr Judyma 10)",
+              "Color": null,
+              "IsEnabled": true
+            }
+          ],
+          "Id": "00000000-0000-0000-0000-000000000000"
+        }
+      ],
+      "Id": "d84ce711-18ff-4764-a27d-419bb572bb83"
+    },
+    {
+      "Name": "KOSZT",
+      "Color": "#FFFF00",
+      "SubCategories": [
+        {
+          "Name": "OSZCZEDNOSCI",
+          "Rules": [],
+          "Id": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+          "Name": "PODATEK ODS",
+          "Rules": [
+            {
+              "TypeOfRule": 1,
+              "Value": "^OBC.PODATEK OD ODSET ",
+              "Color": null,
+              "IsEnabled": true
+            }
+          ],
+          "Id": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+          "Name": "INNE",
+          "Rules": [],
+          "Id": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+          "Name": "SOCJAL",
+          "Rules": [],
+          "Id": "00000000-0000-0000-0000-000000000000"
+        }
+      ],
+      "Id": "00000000-0000-0000-0000-000000000000"
+    },
+    {
+      "Name": "JEDZENIE",
+      "Color": "#FFD800",
+      "SubCategories": [
+        {
+          "Name": "MARKET",
+          "Rules": [
+            {
+              "TypeOfRule": 3,
+              "Value": "^LIDL;ZABKA;STOKROTKA;LEWIATAN;RENETA;SKLEP MIESNY;CARREFOUR;TESCO;FOCZKA;KAUFLAND;MEGANA;MARKET PUNK;PIOTR I PAWEL;*BIEDRONKA;*DELIKATESY ALMA",
+              "Color": null,
+              "IsEnabled": true
+            },
+            {
+              "TypeOfRule": 3,
+              "Value": "^EKO DELIKATESY",
+              "Color": null,
+              "IsEnabled": true
+            },
+            {
+              "TypeOfRule": 3,
+              "Value": "^AUCHAN",
+              "Color": null,
+              "IsEnabled": true
+            },
+            {
+              "TypeOfRule": 3,
+              "Value": "^LAJKONIK PIEKARNIA",
+              "Color": null,
+              "IsEnabled": true
+            }
+          ],
+          "Id": "4e47df4f-e56c-4c9d-9909-b4618ab3a6d1"
+        },
+        {
+          "Name": "RESTAURACJA",
+          "Rules": [
+            {
+              "TypeOfRule": 3,
+              "Value": "^RESTAURACJA;^PIZZA HOUSE;*RIALTO",
+              "Color": null,
+              "IsEnabled": true
+            },
+            {
+              "TypeOfRule": 3,
+              "Value": "^K.K.K. RESTAURACJA;^NORTH FISH",
+              "Color": null,
+              "IsEnabled": true
+            },
+            {
+              "TypeOfRule": 3,
+              "Value": "^REST SPAGHETTERIA K2 KRAKOW PL",
+              "Color": null,
+              "IsEnabled": true
+            },
+            {
+              "TypeOfRule": 3,
+              "Value": "^INDIAN CURRY KRAKOW PL",
+              "Color": null,
+              "IsEnabled": true
+            },
+            {
+              "TypeOfRule": 3,
+              "Value": "^PASTA MASTA I KRAKOW PL",
+              "Color": null,
+              "IsEnabled": true
+            }
+          ],
+          "Id": "8e0bfb83-3032-4fd5-a567-29211634b62b"
+        }
+      ],
+      "Id": "5e8fc41e-ff5a-4a9b-9832-b87c68257c8d"
+    },
+    {
+      "Name": "AUTO",
+      "Color": "#E6E6E6",
+      "SubCategories": [
+        {
+          "Name": "PALIWO",
+          "Rules": [
+            {
+              "TypeOfRule": 3,
+              "Value": "*ORLEN;LOTOS;ARTUS;STATOIL;SHELL;^BP-",
+              "Color": "#FF8080",
+              "IsEnabled": true
+            },
+            {
+              "TypeOfRule": 3,
+              "Value": "^STACJA PALIW",
+              "Color": null,
+              "IsEnabled": true
+            }
+          ],
+          "Id": "ac356ee4-b8b5-4b2e-95e9-ba5ae65c3ef9"
+        },
+        {
+          "Name": "SERWIS",
+          "Rules": [
+            {
+              "TypeOfRule": 3,
+              "Value": "^SERWIS OPON",
+              "Color": null,
+              "IsEnabled": true
+            }
+          ],
+          "Id": "6c8cc578-72e0-456f-a141-4ab680141b26"
+        },
+        {
+          "Name": "POLISA",
+          "Rules": [
+            {
+              "TypeOfRule": 0,
+              "Value": "66114015739000067960802894",
+              "Color": null,
+              "IsEnabled": true
+            },
+            {
+              "TypeOfRule": 0,
+              "Value": "36102010262881011011803904",
+              "Color": null,
+              "IsEnabled": true
+            }
+          ],
+          "Id": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+          "Name": "PARKING",
+          "Rules": [],
+          "Id": "00000000-0000-0000-0000-000000000000"
+        }
+      ],
+      "Id": "64724ec8-c55f-4f03-ac37-649ce959f281"
+    },
+    {
+      "Name": "PRACA\\EDUKACJA",
+      "Color": "#008040",
+      "SubCategories": [
+        {
+          "Name": "MATERIALY",
+          "Rules": [],
+          "Id": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+          "Name": "KSIAZKI",
+          "Rules": [],
+          "Id": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+          "Name": "KURSY",
+          "Rules": [
+            {
+              "TypeOfRule": 3,
+              "Value": "^MEASUREUP",
+              "Color": null,
+              "IsEnabled": true
+            },
+            {
+              "TypeOfRule": 3,
+              "Value": "^Compendium",
+              "Color": null,
+              "IsEnabled": true
+            }
+          ],
+          "Id": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+          "Name": "MARKETING",
+          "Rules": [],
+          "Id": "00000000-0000-0000-0000-000000000000"
+        }
+      ],
+      "Id": "00000000-0000-0000-0000-000000000000"
+    },
+    {
+      "Name": "CIUCHY",
+      "Color": "#C0C0C0",
+      "SubCategories": [
+        {
+          "Name": "SZMATY",
+          "Rules": [
+            {
+              "TypeOfRule": 3,
+              "Value": "^LPP;*BYTOM;^TOP SECRET",
+              "Color": null,
+              "IsEnabled": true
+            },
+            {
+              "TypeOfRule": 3,
+              "Value": "^NIKE RETAIL",
+              "Color": null,
+              "IsEnabled": true
+            },
+            {
+              "TypeOfRule": 3,
+              "Value": "^INTIMISSIMI/CALZEDONIA ",
+              "Color": null,
+              "IsEnabled": true
+            },
+            {
+              "TypeOfRule": 3,
+              "Value": "*ZARA",
+              "Color": null,
+              "IsEnabled": true
+            },
+            {
+              "TypeOfRule": 3,
+              "Value": "^VCO S.A.",
+              "Color": null,
+              "IsEnabled": true
+            },
+            {
+              "TypeOfRule": 3,
+              "Value": "^H AND M",
+              "Color": null,
+              "IsEnabled": true
+            }
+          ],
+          "Id": "e059a11f-acbd-4ab4-a6c7-7e80c7c9e04b"
+        },
+        {
+          "Name": "BUTY",
+          "Rules": [
+            {
+              "TypeOfRule": 3,
+              "Value": "^SYMBIOSIS OUTLET",
+              "Color": null,
+              "IsEnabled": true
+            }
+          ],
+          "Id": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+          "Name": "SPORTOWE",
+          "Rules": [
+            {
+              "TypeOfRule": 3,
+              "Value": "^MARTES SPORT;^INTERSPORT;^MEGASKLEP",
+              "Color": null,
+              "IsEnabled": true
+            }
+          ],
+          "Id": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+          "Name": "GALANTERIA",
+          "Rules": [],
+          "Id": "00000000-0000-0000-0000-000000000000"
+        }
+      ],
+      "Id": "55a33a68-2c7a-41ea-a167-93bd75d6c209"
+    },
+    {
+      "Name": "DZIECI",
+      "Color": "#8080FF",
+      "SubCategories": [
+        {
+          "Name": "ZABAWA",
+          "Rules": [
+            {
+              "TypeOfRule": 3,
+              "Value": "^AKUKUU",
+              "Color": null,
+              "IsEnabled": true
+            },
+            {
+              "TypeOfRule": 3,
+              "Value": "^LEOPARK",
+              "Color": null,
+              "IsEnabled": true
+            }
+          ],
+          "Id": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+          "Name": "ZAJECIA",
+          "Rules": [
+            {
+              "TypeOfRule": 3,
+              "Value": "^AQUA KOREKT",
+              "Color": null,
+              "IsEnabled": true
+            },
+            {
+              "TypeOfRule": 3,
+              "Value": "^KRAUL",
+              "Color": null,
+              "IsEnabled": true
+            },
+            {
+              "TypeOfRule": 3,
+              "Value": "^SUPERBYSTRZAK S.C.",
+              "Color": null,
+              "IsEnabled": true
+            }
+          ],
+          "Id": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+          "Name": "HOBBY",
+          "Rules": [
+            {
+              "TypeOfRule": 3,
+              "Value": "^LEOPARDUS",
+              "Color": null,
+              "IsEnabled": true
+            }
+          ],
+          "Id": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+          "Name": "UBRANIA",
+          "Rules": [
+            {
+              "TypeOfRule": 3,
+              "Value": "*SMYK;^PEPCO",
+              "Color": null,
+              "IsEnabled": true
+            }
+          ],
+          "Id": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+          "Name": "ZABAWKI",
+          "Rules": [
+            {
+              "TypeOfRule": 3,
+              "Value": "^SKLEP KLOCKOWO",
+              "Color": null,
+              "IsEnabled": true
+            }
+          ],
+          "Id": "00000000-0000-0000-0000-000000000000"
+        }
+      ],
+      "Id": "d7644011-7a7e-4cf1-a492-f86cc5c299b3"
+    },
+    {
+      "Name": "ROZRYWKA\\KULTURA",
+      "Color": "#FF80C0",
+      "SubCategories": [
+        {
+          "Name": "KNAJPA",
+          "Rules": [
+            {
+              "TypeOfRule": 3,
+              "Value": "^KTO WYPUSCIL SKOWRONKA;KLUB NA KOTLOWEM;*MUSSO SUSHI;^CAFE;MCDONALDS;KOLANKO",
+              "Color": null,
+              "IsEnabled": true
+            },
+            {
+              "TypeOfRule": 3,
+              "Value": "^AQUA EVINO",
+              "Color": null,
+              "IsEnabled": true
+            },
+            {
+              "TypeOfRule": 3,
+              "Value": "^HOUSE OF BEER",
+              "Color": null,
+              "IsEnabled": true
+            },
+            {
+              "TypeOfRule": 3,
+              "Value": "^PASJO CAFE",
+              "Color": null,
+              "IsEnabled": true
+            },
+            {
+              "TypeOfRule": 3,
+              "Value": "^NA ZDROWIE",
+              "Color": null,
+              "IsEnabled": true
+            },
+            {
+              "TypeOfRule": 3,
+              "Value": "^SOHO CAFFEE SC KRAKOW PL",
+              "Color": null,
+              "IsEnabled": true
+            }
+          ],
+          "Id": "693c664a-4669-4eb4-adae-0b89ff3acc08"
+        },
+        {
+          "Name": "PREZENTY",
+          "Rules": [],
+          "Id": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+          "Name": "KSIAZKI",
+          "Rules": [
+            {
+              "TypeOfRule": 3,
+              "Value": "*KSIEGARNIA;EMPIK",
+              "Color": null,
+              "IsEnabled": true
+            }
+          ],
+          "Id": "94595d00-7ebc-45c1-8e20-47d07acb6a5b"
+        },
+        {
+          "Name": "TEATR",
+          "Rules": [
+            {
+              "TypeOfRule": 3,
+              "Value": "*teatr",
+              "Color": null,
+              "IsEnabled": true
+            }
+          ],
+          "Id": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+          "Name": "KINO",
+          "Rules": [
+            {
+              "TypeOfRule": 1,
+              "Value": "*chomikuj.pl",
+              "Color": null,
+              "IsEnabled": true
+            },
+            {
+              "TypeOfRule": 3,
+              "Value": "^CINEMA CITY;KINO",
+              "Color": null,
+              "IsEnabled": true
+            }
+          ],
+          "Id": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+          "Name": "GAZETY",
+          "Rules": [],
+          "Id": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+          "Name": "ALKOHOL",
+          "Rules": [
+            {
+              "TypeOfRule": 3,
+              "Value": "*ALKOHOL",
+              "Color": null,
+              "IsEnabled": true
+            }
+          ],
+          "Id": "00000000-0000-0000-0000-000000000000"
+        }
+      ],
+      "Id": "7509d9e3-af35-4a6d-9f60-53f8bf6265f3"
+    },
+    {
+      "Name": "BANKOMAT",
+      "Color": "#C0C0C0",
+      "SubCategories": [
+        {
+          "Name": "BANKOMAT",
+          "Rules": [
+            {
+              "TypeOfRule": 1,
+              "Value": "^WYPŁATA GOTÓWKI",
+              "Color": null,
+              "IsEnabled": true
+            },
+            {
+              "TypeOfRule": 1,
+              "Value": "^PROWIZJA WYPŁATA GOTÓWKI",
+              "Color": null,
+              "IsEnabled": true
+            }
+          ],
+          "Id": "00000000-0000-0000-0000-000000000000"
+        }
+      ],
+      "Id": "00000000-0000-0000-0000-000000000000"
+    },
+    {
+      "Name": "WEWNETRZNY",
+      "Color": "#C0C0C0",
+      "SubCategories": [
+        {
+          "Name": null,
+          "Rules": [
+            {
+              "TypeOfRule": 0,
+              "Value": "93105013601000002210158438;25105014451000002270574334;27105013601000002282752001",
+              "Color": null,
+              "IsEnabled": true
+            }
+          ],
+          "Id": "00000000-0000-0000-0000-000000000000"
+        }
+      ],
+      "Id": "00000000-0000-0000-0000-000000000000"
+    },
+    {
+      "Name": "SPRZET",
+      "Color": "#FF8040",
+      "SubCategories": [
+        {
+          "Name": "ELEKTRONIKA",
+          "Rules": [
+            {
+              "TypeOfRule": 3,
+              "Value": "^MEDIA MARKT;^BIT COMPUTER;^FOTOJOKER",
+              "Color": null,
+              "IsEnabled": true
+            },
+            {
+              "TypeOfRule": 3,
+              "Value": "^EURO-NET SP. Z O.O",
+              "Color": null,
+              "IsEnabled": true
+            },
+            {
+              "TypeOfRule": 3,
+              "Value": "^EURO RTV AGD",
+              "Color": null,
+              "IsEnabled": true
+            }
+          ],
+          "Id": "5dc11921-e408-4aa5-8026-05c0a71398b7"
+        },
+        {
+          "Name": "MEBLE",
+          "Rules": [
+            {
+              "TypeOfRule": 3,
+              "Value": "^IKEA;CASTORAMA",
+              "Color": null,
+              "IsEnabled": true
+            },
+            {
+              "TypeOfRule": 3,
+              "Value": "^JYSK SP. Z O.O. ",
+              "Color": null,
+              "IsEnabled": true
+            }
+          ],
+          "Id": "16734d00-e3e4-4605-bd09-ac39aa329d9f"
+        },
+        {
+          "Name": "KUCHNIA",
+          "Rules": [],
+          "Id": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+          "Name": "SPORT",
+          "Rules": [
+            {
+              "TypeOfRule": 3,
+              "Value": "DECATHLON;MEGASKLEP SPORTOWY",
+              "Color": null,
+              "IsEnabled": true
+            }
+          ],
+          "Id": "00000000-0000-0000-0000-000000000000"
+        }
+      ],
+      "Id": "00000000-0000-0000-0000-000000000000"
+    },
+    {
+      "Name": "WELLNESS",
+      "Color": "#8080FF",
+      "SubCategories": [
+        {
+          "Name": "URODA",
+          "Rules": [
+            {
+              "TypeOfRule": 3,
+              "Value": "*SALON URODY;^DROGERIA;^ROSSMANN;^INGLOT",
+              "Color": null,
+              "IsEnabled": true
+            },
+            {
+              "TypeOfRule": 3,
+              "Value": "ROSSMAN;DROGERIA NATURA;SALON URODY",
+              "Color": null,
+              "IsEnabled": true
+            },
+            {
+              "TypeOfRule": 3,
+              "Value": "^SALON LUBIE SIEBIE Krakow PL",
+              "Color": null,
+              "IsEnabled": true
+            }
+          ],
+          "Id": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+          "Name": "SPORT",
+          "Rules": [
+            {
+              "TypeOfRule": 3,
+              "Value": "AQUA KOREKT",
+              "Color": null,
+              "IsEnabled": true
+            },
+            {
+              "TypeOfRule": 3,
+              "Value": "^CASCADA",
+              "Color": null,
+              "IsEnabled": true
+            }
+          ],
+          "Id": "6990d8e8-3001-44da-ab65-fa5b6549920e"
+        },
+        {
+          "Name": "DENTYSTA",
+          "Rules": [
+            {
+              "TypeOfRule": 3,
+              "Value": "^GABINET STOMATOLOGICZNY",
+              "Color": null,
+              "IsEnabled": true
+            }
+          ],
+          "Id": "d176c653-4618-4cbd-8fac-fc2b45ffa31e"
+        },
+        {
+          "Name": "LEKARZ",
+          "Rules": [],
+          "Id": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+          "Name": "LEKI",
+          "Rules": [
+            {
+              "TypeOfRule": 3,
+              "Value": "*APTEKA",
+              "Color": null,
+              "IsEnabled": true
+            }
+          ],
+          "Id": "dbd87b3a-923a-4a08-ae44-af52ffc4c2ce"
+        }
+      ],
+      "Id": "00000000-0000-0000-0000-000000000000"
+    },
+    {
+      "Name": "WAKACJE",
+      "Color": "#FF80C0",
+      "SubCategories": [
+        {
+          "Name": "NOCLEG",
+          "Rules": [
+            {
+              "TypeOfRule": 3,
+              "Value": "*Orlik",
+              "Color": null,
+              "IsEnabled": true
+            }
+          ],
+          "Id": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+          "Name": "TRANSPORT",
+          "Rules": [],
+          "Id": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+          "Name": "ROZRYWKA",
+          "Rules": [
+            {
+              "TypeOfRule": 3,
+              "Value": "^BANIA SKI FUN BIALKA TATRZA PL",
+              "Color": null,
+              "IsEnabled": true
+            }
+          ],
+          "Id": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+          "Name": "JEDZENIE",
+          "Rules": [
+            {
+              "TypeOfRule": 3,
+              "Value": "^Karczma KOZINIEC Czarna Gora PL",
+              "Color": null,
+              "IsEnabled": true
+            },
+            {
+              "TypeOfRule": 3,
+              "Value": "^BANIA RESTAURACJA",
+              "Color": null,
+              "IsEnabled": true
+            }
+          ],
+          "Id": "00000000-0000-0000-0000-000000000000"
+        }
+      ],
+      "Id": "00000000-0000-0000-0000-000000000000"
+    }
+  ]
+}
