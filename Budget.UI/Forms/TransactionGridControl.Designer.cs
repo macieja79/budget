@@ -31,6 +31,7 @@
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.gridNavigator1 = new Metaproject.WinForms.Controls.GridNavigator();
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Owner = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ColumnIsEdited = new System.Windows.Forms.DataGridViewImageColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Podkategoria = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -54,6 +55,7 @@
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column4,
+            this.Owner,
             this.ColumnIsEdited,
             this.Column2,
             this.Podkategoria,
@@ -68,7 +70,7 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersVisible = false;
             this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView1.Size = new System.Drawing.Size(681, 388);
+            this.dataGridView1.Size = new System.Drawing.Size(788, 388);
             this.dataGridView1.TabIndex = 0;
             // 
             // gridNavigator1
@@ -89,6 +91,14 @@
             this.Column4.Name = "Column4";
             this.Column4.ReadOnly = true;
             this.Column4.Width = 60;
+            // 
+            // Owner
+            // 
+            this.Owner.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.Owner.DataPropertyName = "Owner";
+            this.Owner.HeaderText = "Owner";
+            this.Owner.Name = "Owner";
+            this.Owner.ReadOnly = true;
             // 
             // ColumnIsEdited
             // 
@@ -170,7 +180,7 @@
             this.Controls.Add(this.gridNavigator1);
             this.Controls.Add(this.dataGridView1);
             this.Name = "TransactionGridControl";
-            this.Size = new System.Drawing.Size(681, 422);
+            this.Size = new System.Drawing.Size(788, 422);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
@@ -181,6 +191,7 @@
         private System.Windows.Forms.DataGridView dataGridView1;
         private Metaproject.WinForms.Controls.GridNavigator gridNavigator1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Owner;
         private System.Windows.Forms.DataGridViewImageColumn ColumnIsEdited;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Podkategoria;

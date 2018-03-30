@@ -1,4 +1,4 @@
-set src="..\Common\Metaproject.Excel\bin\Debug\Metaproject.Excel.*"
+set src="Metaproject.Excel\bin\Debug\Metaproject.Excel.*"
 set dstUI="Budget.UI\bin\Debug"
 set dstTests="Budget.UnitTests\bin\Debug"
 
